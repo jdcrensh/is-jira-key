@@ -1,0 +1,9 @@
+{
+  "name": "is-jira-key",
+  "version": "0.0.0",
+  "description": "Test that a string is a valid and supported JIRA issue identifier",
+  "main": "index.js",
+  "repository": "https://github.com/jdcrensh/is-jira-key",
+  "author": "Jon Crenshaw <jdcrensh@gmail.com>",
+  "license": "MIT"
+}
