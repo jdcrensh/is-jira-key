@@ -1,9 +1,28 @@
 {
   "name": "is-jira-key",
   "version": "0.0.0",
-  "description": "Test that a string is a valid and supported JIRA issue identifier",
-  "main": "index.js",
+  "description":
+    "Test that a string is a valid and supported JIRA issue identifier",
+  "main": "lib/index.js",
   "repository": "https://github.com/jdcrensh/is-jira-key",
   "author": "Jon Crenshaw <jdcrensh@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "files": ["lib/index.js"],
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "jest"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "lint-staged": {
+    "*.{js,json}": ["prettier --write", "git add"]
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.8.2"
+  }
 }
