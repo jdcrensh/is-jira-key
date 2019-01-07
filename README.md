@@ -1,6 +1,6 @@
 # is-jira-key
 
-[![NPM version][npm-image]][npm-url]
+[![NPM version][npm-image]][npm-url] [![Build Status](https://travis-ci.org/jdcrensh/is-jira-key.svg?branch=master)](https://travis-ci.org/jdcrensh/is-jira-key)
 
 > Test that a string is a valid and supported JIRA issue identifier
 
